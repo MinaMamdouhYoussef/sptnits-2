@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1640733376 source:c:\users\compusity\desktop\stack_simple_compiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"primitive_data_types.h"
+	"stack_interface.h"
+
+1640621529 c:\users\compusity\desktop\stack_simple_compiler\primitive_data_types.h
+
+1640594053 c:\users\compusity\desktop\stack_simple_compiler\bit_wise.h
+
+1640731454 c:\users\compusity\desktop\stack_simple_compiler\stack_interface.h
+
+1640734952 source:c:\users\compusity\desktop\stack_simple_compiler\stack_program.c
+	<stdio.h>
+	<stdlib.h>
+	"primitive_data_types.h"
+	"stack_interface.h"
+

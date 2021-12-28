@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1640717890 source:c:\users\compusity\desktop\search_sort_algorithems\main.c
+	<stdio.h>
+	<stdlib.h>
+	"primitive_data_types.h"
+	"search_sort_interfeace.h"
+
+1640715296 c:\users\compusity\desktop\search_sort_algorithems\primitive_data_types.h
+
+1640711317 c:\users\compusity\desktop\search_sort_algorithems\search_sort_interfeace.h
+
+1640722769 source:c:\users\compusity\desktop\search_sort_algorithems\search_sort_program.c
+	<stdio.h>
+	<stdlib.h>
+	"primitive_data_types.h"
+	"search_sort_interfeace.h"
+

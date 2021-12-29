@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1640777911 source:c:\users\compusity\desktop\x_o_main_function\x_o_program.c
+	<stdio.h>
+	<stdlib.h>
+	"primitive_data_types.h"
+	"bit_wise.h"
+	"x_o_game_interface.h"
+
+1640783480 source:c:\users\compusity\desktop\x_o_main_function\main.c
+	<stdio.h>
+	<stdlib.h>
+	"primitive_data_types.h"
+	"bit_wise.h"
+	"x_o_game_interface.h"
+
+1640740007 c:\users\compusity\desktop\x_o_main_function\primitive_data_types.h
+
+1640594053 c:\users\compusity\desktop\x_o_main_function\bit_wise.h
+
+1640777780 c:\users\compusity\desktop\x_o_main_function\x_o_game_interface.h
+

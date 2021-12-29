@@ -1,0 +1,9 @@
+#ifndef __BIT__WISE__OPERATIONS__
+#define __BIT__WISE__OPERATIONS__
+
+#define SET_BIT(VAR_NAME,BIT_NO) 		(VAR_NAME|=(1<<BIT_NO))
+#define CLEAR_BIT(VAR_NAME,BIT_NO)		(VAR_NAME&=(~(1<<BIT_NO)))
+#define TOG_BIT(VAR_NAME,BIT_NO)		(VAR_NAME^=(1<<BIT_NO))
+#define GET_BIT(VAR_NAME,BIT_NO)		((VAR_NAME>>BIT_NO)&0x01)
+
+#endif

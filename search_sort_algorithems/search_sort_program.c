@@ -90,20 +90,19 @@ sint16_t u8_BinarySearch(uint32_t* pu32_arr,const uint8_t ArrSize,uint32_t u32_S
 			u8_End = u8_Mid + u8_GO_BACKWARD_INDEX ;
 			u8_Mid = (u8_Start + u8_End)/2 ;
 		}
-		else if(u8_Mid==u8_Start)
-        {
-            if( pu32_arr[u8_Mid] < u32_SearchNum)
-            {
-                u8_Start = u8_End ;
-                u8_Mid = u8_Start ;
-            }
-            else
-            {
-                u8_End = u8_Start ;
-                u8_Mid = u8_Start ;
-            }
-        }
-
+	       else if(u8_Mid==u8_Start)
+       	        {
+           	       if( pu32_arr[u8_Mid] < u32_SearchNum)
+          	        {
+              		    u8_Start = u8_End ;
+            		    u8_Mid = u8_Start ;
+            		}
+            		else
+            		{
+                	    u8_End = u8_Start ;
+            		    u8_Mid = u8_Start ;
+            		}
+        	}
 	}
 
 	if(pu32_arr[u8_Mid]!= u32_SearchNum) //check if the number is found or the while loop ended due to (u8_Start!=u8_End)

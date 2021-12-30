@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1640898442 source:c:\users\compusity\desktop\payement\payement_program.c
+1640899274 source:c:\users\compusity\desktop\payement\payement_program.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

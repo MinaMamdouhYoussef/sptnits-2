@@ -96,7 +96,7 @@ void ServerDataCheck(const ST_cardData_t* const pcarddata_userData,const ST_term
 {
 	uint8_t u8_ServerDataCounter = u8_INTIAL_COUNT , u8_accNumReachedFlag ;
 	ptransaction_ReturnData->cardHolderData =  (*pcarddata_userData) ;
-    ptransaction_ReturnData->transData =  (*pterminaldata_userData) ;
+        ptransaction_ReturnData->transData =  (*pterminaldata_userData) ;
 	EN_transStat_t state = DECLINED ;
 	printf("Verifying Data From The Server...\n") ;
 	for(u8_ServerDataCounter = u8_INTIAL_COUNT ; u8_ServerDataCounter<10 ; u8_ServerDataCounter++)

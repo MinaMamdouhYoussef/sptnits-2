@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1640898442 source:c:\users\compusity\desktop\payement\payement_program.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"primitive_data_types.h"
+	"payment_interface.h"
+
+1640898930 source:c:\users\compusity\desktop\payement\main.c
+	<stdio.h>
+	<stdlib.h>
+	"primitive_data_types.h"
+	"payment_interface.h"
+
+1640740007 c:\users\compusity\desktop\payement\primitive_data_types.h
+
+1640898209 c:\users\compusity\desktop\payement\payment_interface.h
+
